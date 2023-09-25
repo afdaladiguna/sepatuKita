@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Koulen&family=Poppins:wght@200;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/9b7295bab8.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>SepatuKita</title>
+  </head>
+
+  <body>
+    <header>
+      <h2><a href="#">SepatuKita</a></h2>
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#products">Products</a></li>
+        </ul>
+      </nav>
+      <div>
+        <p id="cart-button">CART</p>
+      </div>
+    </header>
+
+    <main>
+      <article id="home">
+        <div id="caption">
+          <h2>Best Shoes Store in Town</h2>
+          <p>
+            Temukan sepatu terbaik anda untuk menunjang penampilan sehari-hari,
+            temukan promo menarik!
+          </p>
+        </div>
+        <div id="hidden"></div>
+      </article>
+
+      <div id="cart-page">
+        <h4>Cart</h4>
+        <div id="item-cart">
+          <p id="cart-empty">Your cart is still empty.</p>
+          <p>Browse now at our <a href="#">Product</a>.</p>
+        </div>
+        <div id="check-out-button">
+          <button>Check Out!</button>
+        </div>
+      </div>
+
+      <article id="about">
+        <h2>ABOUT US</h2>
+        <div class="about">
+          <div class="content">
+            <h3>About SepatuKita</h3>
+            <p>
+              SepatuKita sudah berdiri sejak tahun 2019 dan dikembangkan oleh
+              seorang pemuda dan tim nya berbasis di kota Makassar, Sulawesi
+              Selatan.<br />Sudah mendapatkan kepercayaan masyarakat untuk
+              market fashion khususnya sepatu dan telah mendukung pengiriman
+              luar negeri.
+            </p>
+          </div>
+          <aside>
+            <h3>About Owner</h3>
+            <img src="img/owner-img.jpg" alt="" />
+            <p>Muhammad Afdal Adiguna</p>
+            <a href="https://www.instagram.com/afddll/"
+              ><i class="fa-brands fa-instagram"> afddll</i><br
+            /></a>
+            <a href="https://github.com/afdaladiguna"
+              ><i class="fa-brands fa-github"> afdaladiguna</i></a
+            >
+          </aside>
+        </div>
+      </article>
+
+      <article id="products">
+        <h2>Our Products</h2>
+        <div class="products-container">
+          <div class="products-card">
+            <div class="products-img">
+              <img src="img/airforce1.jpg" alt="" />
+            </div>
+            <div class="products-caption">
+              <p class="products-header">Man Shoes</p>
+              <h4 class="products-title">Air Force 1</h4>
+              <p class="products-price">$9.22</p>
+              <button>Add to Cart</button>
+            </div>
+          </div>
+          <div class="products-card">
+            <div class="products-img">
+              <img src="img/airjordan1.jpg" alt="" />
+            </div>
+            <div class="products-caption">
+              <p class="products-header">Man Shoes</p>
+              <h4 class="products-title">Air Jordan 1</h4>
+              <p class="products-price">$11.22</p>
+              <button>Add to Cart</button>
+            </div>
+          </div>
+          <div class="products-card">
+            <div class="products-img">
+              <img src="img/airmax.jpg" alt="" />
+            </div>
+            <div class="products-caption">
+              <p class="products-header">Man Shoes</p>
+              <h4 class="products-title">Air Max</h4>
+              <p class="products-price">$9.22</p>
+              <button>Add to Cart</button>
+            </div>
+          </div>
+          <div class="products-card">
+            <div class="products-img">
+              <img src="img/dunklow.jpg" alt="" />
+            </div>
+            <div class="products-caption">
+              <p class="products-header">Man Shoes</p>
+              <h4 class="products-title">Dunk Low</h4>
+              <p class="products-price">$9.22</p>
+              <button>Add to Cart</button>
+            </div>
+          </div>
+        </div>
+      </article>
+    </main>
+
+    <footer>
+      <p>Muhammad Afdal Adiguna copyright 2022.</p>
+    </footer>
+
+    <script src="app.js"></script>
+  </body>
+</html>
